@@ -13,7 +13,7 @@ public class Login extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        setTheme();
+        setTheme(android.R.style.Theme_DeviceDefault_NoActionBar_Fullscreen);
 
     }
 }

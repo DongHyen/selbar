@@ -11,9 +11,11 @@ public class Tab2Routine extends Fragment
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab2routine, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
+       View rootView = inflater.inflate(R.layout.activity_main3, container, false);
+
         return rootView;
+
     }
 }

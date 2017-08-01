@@ -21,7 +21,8 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -98,20 +99,22 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public Fragment getItem(int position) {
-        switch (position)
+        public Fragment getItem(int position)
         {
-            case 0:
-                Tab1Home tab1 = new Tab1Home();
-                return tab1;
-            case 1:
-                Tab2Routine tab2 = new Tab2Routine();
-                return tab2;
-            case 2:
-                Tab3Graph tab3 = new Tab3Graph();
-                return tab3;
-            default:
-                return null;
+        switch (position)
+            {
+                case 0:
+                    Tab1Home tab1 = new Tab1Home();
+                    return tab1;
+                case 1:
+                    Tab2Routine tab22 = new Tab2Routine();
+                    return tab22;
+
+                case 2:
+                    Tab3Graph tab3 = new Tab3Graph();
+                    return tab3;
+                default:
+                    return null;
             }
         }
 

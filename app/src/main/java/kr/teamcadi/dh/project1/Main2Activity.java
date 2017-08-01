@@ -128,14 +128,16 @@ public class Main2Activity extends AppCompatActivity
         }
 
         @Override
-        public int getCount() {
+        public int getCount()
+        {
             // Show 3 total pages.
             return 3;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
-            switch (position) {
+            switch (position)
+            {
                 case 0:
                     return "상";
                 case 1:
